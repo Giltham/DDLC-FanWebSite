@@ -1,0 +1,42 @@
+body{
+
+}
+
+.bg{
+ background-color: light_grey;
+ background-image:url("Menu_bg.png");
+ animation: animate-background 10s linear infinite;
+}
+
+.Choice{
+  font-family: Calibri;
+  color: Black;
+  text-align: center;
+  top:40%;
+  left: 50%;
+  width: 400px;
+  height: 50px;
+  position: absolute;
+  margin-left: -200px;
+  margin-top: -50px;
+  border: 5px #f2c1d7 solid ;
+  background-color: #fee6f4;
+  text-decoration: none;
+}
+#monikey{
+  position: relative;
+  left:35.9%;
+}
+
+#disclaimer_sayori{
+  top: 50%;
+}
+
+
+@keyframes animate-background {
+  from { background-position:0px 0px;}
+  to { background-position:-1306px 1319px;}
+}
+
+
+/*une monika...deux monika...3monika.....tsunamika..*/
