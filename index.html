@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="CSS\style.css">
+  <title>Choix Multiples</title>
+  <script type="text/javascript" src="script/index.js"></script>
+  <script type="text/javascript" src="second.js"></script>
+
+
+
+</head>
+
+<body id="corps" class="bg" onload="setCurTime()">
+  <div>
+    <img id="monikey" src="Img/Monika.png" alt="MONIKEY">
+    <h1 class="Choice" id="Monika"> <a href="Monika.html"  style="color: black; text-decoration: none;" >Monika</a></h1>
+    <h1  onclick="img()"  class="Choice" id="sayori" onmouseenter="lanceMusique();gresillement()" onmouseleave="arreteMusique();stopGrésillement()" >SAYORI</a></h1>
+  </div>
+
+  <div>
+    <img onclick="exit()" src="GIF/sayoridead.gif" alt="rip" id="imgimg" onmouseenter="lanceMusique()">
+    <h1 onclick="reset()" class="Choice" id="exit">Monika</h1>
+    <div>
+
+      <audio id="sayo" loop>
+	<source src="Sounds/sayonara.mp3" type="audio/mpeg" >
+  </audio>
+
+      <script type="text/javascript">
+
+        var vid = document.getElementById("sayo");
+
+        function getCurTime() {
+          alert(vid.currentTime);
+        }
+
+        function setCurTime() {
+          vid.volume = 0.025;
+          vid.currentTime = 37.85;
+        }
+
+
+      </script>
+</body>
+
+
+
+
+</html>
