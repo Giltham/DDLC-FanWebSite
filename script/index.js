@@ -31,7 +31,7 @@ function reset() {
   document.getElementById("monikey").style.filter="brightness(100%)";
   document.getElementById("Monika").style.filter="brightness(100%)";
   document.getElementById("sayori").style.filter="brightness(60%)";
-  document.getElementById("monikey").src = "../img/Hanged_sayori.png"
+  document.getElementById("monikey").src = "Img/Hanged_sayori.png"
   document.getElementById("monikey").style.left = '42%';
   document.getElementById("exit").style.display = "none";
   vid.volume = 0.025;
