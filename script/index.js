@@ -34,6 +34,6 @@ function reset() {
   document.getElementById("monikey").src = "Img/Hanged_sayori.png"
   document.getElementById("monikey").style.left = '42%';
   document.getElementById("exit").style.display = "none";
-  vid.volume = 0.025;
+  vid.volume = 0.11;
   document.getElementById("imgimg").style.display = "none";
 }
